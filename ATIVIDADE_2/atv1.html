@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damasco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho bonitinho, pra informar sobre o que se trata o site -->
+    <header>
+        <h1>Aço Damasco</h1>
+        <p>Uma faca boa é uma faca que corta!</p>
+    </header>
+
+    <!-- Parte principal do site -->
+    <main>
+
+        <!-- Informações sobre o Aço Damasco -->
+        <section>
+            <h2>O que é o Aço Damasco</h2>
+            <p>O aço soldado padrão é um tipo famoso de aço que é facilmente reconhecido por seu padrão ondulado de metal claro-escuro. Este tipo de aço é feito por soldagem repetida de chapas que diferem entre si em sua composição química e, consequentemente, em cor após a corrosão. A quantidade de camadas que aumenta em cada dobra também é um fator importante sobre a forja desse aço.</p>
+            <div>
+                <!-- Puxei a imagem com link pra cá pois não fazia mt sentido na lista de baixo -->
+                <a href="https://noblie.eu/pt/mosaic-damascus-patterns/" target="_blank">
+                    <img src="imagem1.png" alt="Image 1">
+                </a>
+                <p>Exemplos de Aço Damasco<br/><br/><br/></p> 
+            </div>
+        </section>
+
+        <!-- Tipos de Aço Damasco, coloquei 500px de largura pra dar pra ver legal, cada foto tem em cima dela o nome do padrão e o mesmo redireciona pra algum site de compra com uma faca parecida -->
+        <section>
+            <h2>Padrões de Aço Damasco em Facas</h2>
+            <ul>
+                <li>
+                    <a href="https://hangardochurrasco.com.br/produto/faca-damasco-cutelaria-adlung/" target="_blank"><p>Ladder</p></a>
+                    <div>
+                        <img src="imagem2.jpg" alt="imagem de uma faca com padrão ladder"  width="500px">
+                    </div>
+                </li>
+                <li>
+                    <a href="https://www.templodasfacas.com.br/faca-artesanal-forjada-raindrop-violet-aco-de-damasco-8-polegadas9912301" target="_blank"><p>Raindrop</p></a>
+                    <div>
+                        <img src="imagem3.jpg" alt="imagem de uma faca com padrão raindrop" width="500px">
+                    </div>
+                </li>
+                <li>
+                    <a href="https://www.xirudasfacas.com.br/item/faca-aco-damasco-arkansas-breeze-bainha-picaca-7-pol" target="_blank"><p>Arkansas Breeze</p></a>
+                    <div>
+                        <img src="imagem4.jpg" alt="imagem de uma faca com padrão arkansas breeze" width="500px">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        <!-- Tabelinha com preços e tamanhos que eu encontrei em um site aleatório por aí :D -->
+        <section>
+            <h2>Tabela de Preços de Exemplo</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tamanho</th>
+                        <th>Camadas</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.xirudasfacas.com.br/item/faca-fulltang-aco-damasco-bainha-couro-lam-10-cm" target="_blank">10cm</a></td>
+                        <td>280 camadas</td>
+                        <td><b>R$ 628,00</b></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.xirudasfacas.com.br/item/faca-aco-damasco-gaucha-padrao-w-380-camadas-c-bainha-picaca" target="_blank">18cm</a></td>
+                        <td>380 camadas</td>
+                        <td><b>R$ 2.502,00</b></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.xirudasfacas.com.br/item/faca-damasco-picanheira-420-camadas-cabo-jacaranda-lam-25-cm" target="_blank">25cm</a></td>
+                        <td>420 camadas</td>
+                        <td><b>R$ 2.277,00</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Artigo e Formulário para simular inscrição -->
+        <article>
+            <h2>
+                Cadastre-se para receber as novidades!
+            </h2>
+            <form method="get" action="https://www.w3schools.com/action_page.php">
+                <!-- Nome e telefone -->
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" placeholder="Nome" maxlength="15"><br>
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input type="text" name="sobrenome" placeholder="Sobrenome" maxlength="15"><br>
+                <label for="telefone">Telefone</label><br>
+                <input name="telefone" type="phone" placeholder="88 8 88888888"><br><br>
+
+                <!-- Cidade -->
+                <label for="radio">Mora em Quixadá?</label><br>
+                <input type="radio" id="sim" value="Sim" name="radio_test">
+                <label for="sim" >Sim</label><br>
+                <input type="radio" id="nao" value="Não" name="radio_test">
+                <label for="nao" >Não</label><br><br>
+
+                <!-- Etc -->
+                <label for="numerico">Numérico</label><br>
+                <input name="numerico" type="number" min="25000" max="30000"><br><br>
+                <input type="checkbox" name="receber">
+                <label for="receber">Receber e-mail de confirmação</label><br><br>
+                <label for="teste">Teste</label><br>
+                <input name="teste" type="text" readonly value="TESTE TESTE" disabled><br><br>
+                <br>
+
+                <!-- Botão de Submit -->
+                <input type="submit" value="Finalizar"><br><br>
+            </form>
+        </article>
+    </main>
+
+    <!-- Rodapé da página por que nós temos direitos tbm -->
+    <footer>
+        <p>&copy; 2023 Sou eu miseráveo. All rights reserved para eu mesmo. Dados de 18/08/2023</p>
+    </footer>
+</body>
+</html>
