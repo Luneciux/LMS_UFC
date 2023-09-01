@@ -2,7 +2,7 @@
     width: 20px;
     height: 20px;
     background-color: white;
-    border: 1px solid black;
+    border: 0px solid black;
   }
   
   div.relative_hat {
@@ -10,7 +10,7 @@
     width: 180px;
     height: 40px;
     left: 200px;
-    border: 1px solid black
+    border: 0px solid black
   } 
   
   div.absolute_hat11 {

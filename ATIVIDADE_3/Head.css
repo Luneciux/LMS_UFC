@@ -10,8 +10,7 @@ div.relative_head {
     width: 220px;
     height: 100px;
     left: 180px;
-    top: 50px;
-    border: 1px solid black
+    top: 0px;
 }
 
 div.absolute_head11 {
